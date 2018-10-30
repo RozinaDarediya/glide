@@ -41,7 +41,7 @@ final class RequestOptionsOverrideGenerator {
     return generateInstanceMethodOverridesForRequestOptions(
         typeToOverrideIn, Collections.<String>emptySet());
   }
-
+// added comment
   List<MethodSpec> generateInstanceMethodOverridesForRequestOptions(
       final TypeName typeToOverrideIn, final Set<String> excludedMethods) {
     return
